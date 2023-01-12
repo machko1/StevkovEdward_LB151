@@ -1,10 +1,10 @@
 # Projekt-Dokumentation
 
-*Stevkov*
+**Stevkov**
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+|       | 0.0.1   | Ich habe die Projektdokumentation erstellt und mich für eine Technologie entschieden, mit der ich das Projekt programmieren werde. |
 |       | 0.0.2   |                                                              |
 |       | 0.0.3   |                                                              |
 |       | 0.0.4   |                                                              |
