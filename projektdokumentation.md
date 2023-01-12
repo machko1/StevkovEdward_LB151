@@ -4,7 +4,7 @@
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | Ich habe die Projektdokumentation erstellt und mich für eine Technologie entschieden, mit der ich das Projekt programmieren werde. |
+|  12.01.2023     | 0.0.1   | Ich habe die Projektdokumentation erstellt und mich für eine Technologie entschieden, mit der ich das Projekt programmieren werde. |
 |       | 0.0.2   |                                                              |
 |       | 0.0.3   |                                                              |
 |       | 0.0.4   |                                                              |
