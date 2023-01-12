@@ -1,6 +1,6 @@
 # Projekt-Dokumentation
 
-✍️ Ihr Nachname
+*Stevkov*
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
