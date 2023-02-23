@@ -5,12 +5,12 @@
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |  12.01.2023     | 0.0.1   | Ich habe die Projektdokumentation erstellt und mich für eine Technologie entschieden, mit der ich das Projekt programmieren werde. |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+|   26.01.2023    | 1.0.1   |    Ich habe ein React Programm erstellt und die Fullstack umgebung eingerichtet                                                          |
+|   02.02.2023    | 1.0.2   |    Ich habe eine Verbindung zu einer Datenbank via SQL im Express Backend erstellt.                                                           |
+|   14.02.2023    | 1.0.3   |    Ich habe provisorische Daten in meine Datenbank eingefügt und habe versucht einen Fehler mit der Verbindung zur Datenbank zu beheben.                                                         |
+|   19.02.2023    | 1.1.1   |    Ich habe die Hauptseite des Spiels begonnen zu erstellen und eine Navigation erstellt für die Seiten                                                        |
+|       | 0.0.0   |                                                              |
+|       | 0.0.0   |                                                              |
 
 # 0) Ihr Projekt
 
