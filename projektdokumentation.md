@@ -56,6 +56,7 @@ Das Interface besteht aus einem Login bevor man auf das Spiel zugreifen kann. Da
 | 10  |       Muss          |   Qualität   |  Als Spieler möchte ich zu jeder Zeit meine Lebenspunkte einsehen können, um den Fortschritt des Spiels zu verfolgen.                                  |
 | 11  |        Muss         |   Qualität   |  Als Spieler möchte ich erfahren, ob meine Antwort richtig oder falsch war, um meine Leistung einschätzen zu können.                                  |
 | 12  |        Muss         |   Qualität   |     Als Spieler möchte ich in der Highscore-Liste Rang, Namen des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl der Spielrunden einsehen können, um meine Leistung mit anderen zu vergleichen.                               |
+| 13  |         Muss        |   Funktional   |   Als Admin möchte ich benutzer Erstellen können, um neuen Spielern Zugriff auf das Spiel zu vergeben.                                 |
 | A | Kann | Funktional | Als Spieler möchte ich die History meines Bankkonto sehen, um zu sehen wie viel Geld ich an einem vorherigen Zeitpunkt hatte |
 | B | Kann | Funktional | Als Benutzer der Webseite möchte ich einen Dark und Lightmode haben, um einen dünkleren Modus zu haben der besser ist am Abend. |
 | C | Kann | Funktional | Als Spieler möchte ich in einem Shop verschiedene Items kaufen können, um mein erspieltes Geld |
@@ -78,7 +79,8 @@ Das Interface besteht aus einem Login bevor man auf das Spiel zugreifen kann. Da
 | 10.1 | Website ist auf 2. Seite geöffnet | Keine Eingabe | Lebenspunkte werden angezeigt|
 | 11.1 | Spieler erhält Rückmeldung nach Antwort | Spieler gibt Antwort ein | Rückmeldung ob Antwort richtig oder falsch wird angezeigt|
 | 12.1 | Website ist auf Highscore Seite geöffnet | Keine Eingabe | Highscore-Liste wird angezeigt|
-| Testfall A.1 | Website ist auf Bank Seite geöffnet | Spieler klickt auf "History" | Spieler sieht die Historie des Bankkontos|
+| 13.1 | Website ist auf Adminpanel geöffnet | Administrator gibt Spielerinformationen an |  | 
+| A.1 | Website ist auf Bank Seite geöffnet | Spieler klickt auf "History" | Spieler sieht die Historie des Bankkontos|
 | B.1 | Website ist auf 2. Seite geöffnet; Lightmode ist aktiviert | Benutzer klickt auf Darkmode Symbol | Webseite wechselt zum Darkmode|
 | B.2 | Website ist auf 2. Seite geöffnet; Darkmode ist aktiviert | Benutzer klickt auf Darkmode Symbol | Webseite wechselt zum Lightmode|
 | C.1 | Website ist auf 2. Seite geöffnet | Spieler klickt auf "Shop" | Shop wird geöffnet|
@@ -103,6 +105,7 @@ Das Interface besteht aus einem Login bevor man auf das Spiel zugreifen kann. Da
 |  6  |    16.2.2023   |      -       |
 |  7  |    23.2.2023   |  Ich habe die Firebase Benutzer mit dem Programm verlinkt und ein Log-in Form erstellt           |
 |  10  |    1.3.2023   |    Ich habe eine simple Healthbar implementiert         |
+|  13  |    16.2.2023   |      Ich habe eine Funktion hinzugefügt, um Spieler zu erstellen, jedoch funktioniert sich irgendwie nicht.     |
 |  B  |    28.3.2023   |  Ich habe den Darkmode mithilfe von contexts implementiert.            |
 
 
@@ -122,6 +125,7 @@ Das Interface besteht aus einem Login bevor man auf das Spiel zugreifen kann. Da
 | 10  |        ja   |             components/healthbar                              |
 | 11  |          nein |Nicht geschafft.                                           |
 | 12  |          nein |                Nicht geschafft.                           |
+| 13  |          nein |                Nicht geschafft.                           |
 | A  |          nein |                                 Nicht geschafft.          |
 | B  |      ja     |                                          /context/darkmodecontext und reducer|
 | C  |     nein      |                                         Nicht geschafft.  |
@@ -129,12 +133,28 @@ Das Interface besteht aus einem Login bevor man auf das Spiel zugreifen kann. Da
 
 # 8 Testprotokoll
 
-✍️ Fügen Sie hier den Link zu dem Video ein, welches den Testdurchlauf dokumentiert.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xa3zk7BeZf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-|   |       |          |        |
+| 1.1  |   02.03.2023    |   Erfolgreich       |    Edward Stevkov    |
+| 2.1  |   02.03.2023    |    Erfolgreich      |    Edward Stevkov    |
+| 2.2  |   02.03.2023    |    Nicht Erfolgreich      |    Edward Stevkov    |
+| 3.1  |   02.03.2023    |    Erfolgreich      |    Edward Stevkov    |
+| 4.1  |   02.03.2023    |    Erfolgreich      |    Edward Stevkov    |
+| 6.1  |   02.03.2023    |     Erfolgreich     |    Edward Stevkov    |
+| 7.1  |   02.03.2023    |    Erfolgreich      |    Edward Stevkov    |
+| 8.1  |   02.03.2023    |    Nicht Erfolgreich      |    Edward Stevkov    |
+| 9.1  |   02.03.2023    |     Nicht Erfolgreich      |    Edward Stevkov    |
+| 10.1  |   02.03.2023    |    Erfolgreich      |    Edward Stevkov    |
+| 11.1  |   02.03.2023    |     Nicht Erfolgreich      |    Edward Stevkov    |
+| 12.1  |   02.03.2023    |     Nicht Erfolgreich      |    Edward Stevkov    |
+| 13.1  |   02.03.2023    |    Nicht Erfolgreich (unbekannter Fehler)      |    Edward Stevkov    |
+| A  |   02.03.2023    |     Nicht Erfolgreich      |    Edward Stevkov    |
+| B  |   02.03.2023    |      Erfolgreich    |    Edward Stevkov    |
+| C |   02.03.2023    |     Nicht Erfolgreich      |    Edward Stevkov    |
+| D  |   02.03.2023    |     Nicht Erfolgreich      |    Edward Stevkov    |
+
 
 Insgesamt muss ich sagen, dass ich mit dem Projekt sehr unzufrieden bin. Wegen vielen Schwierigkeiten und Meinungsänderungen habe ich ein sehr schwaches Endresultat und ich konnte nur die hälfte der Testfälle realisieren. Ich hatte mühe, da ich spät im Projekt einen grossen Fehler mit der SQL Datenbank hatte und somit, praktisch von Neu beginnen musste vor 1-2 Wochen. Das Spiel ist nicht funktionsfähig und es wurden nur einige Admin Befehle und ein Login umgesetzt, mit einem teilweise funktionsfähigen UI.
 
@@ -147,4 +167,4 @@ Insgesamt muss ich sagen, dass ich mit dem Projekt sehr unzufrieden bin. Wegen v
 
 - [✅] Ich habe die Rechtschreibung überprüft
 - [✅] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
-- [✅ ] Ich habe alle mit ✍️ markierten Teile ersetzt
+- [✅] Ich habe alle mit ✍️ markierten Teile ersetzt
