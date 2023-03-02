@@ -112,7 +112,7 @@ Das Interface besteht aus einem Login bevor man auf das Spiel zugreifen kann. Da
 | ---- | --------- | ----------------------------------------- |
 | 1    | ja   |         /pages/login                                  |
 | 2  |         ja  |                      /pages/newcategory                     |
-| 3  |          ja |                                           |
+| 3  |          ja |                   /pages/newcategory                         |
 | 4  |          nein |         Nicht geschafft.                                  |
 | 5  |          nein |         Implementiert aber nicht funktionsfähig                                  |
 | 6  |          ja |         Projekt wird auf Google geöffnet                                  |
