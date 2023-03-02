@@ -9,9 +9,10 @@
 |   02.02.2023    | 1.0.2   |    Ich habe eine Verbindung zu einer Datenbank via SQL im Express Backend erstellt.                                                           |
 |   14.02.2023    | 1.0.3   |    Ich habe provisorische Daten in meine Datenbank eingefügt und habe versucht einen Fehler mit der Verbindung zur Datenbank zu beheben.                                                         |
 |   19.02.2023    | 1.1.1   |    Ich habe die Hauptseite des Spiels begonnen zu erstellen und eine Navigation erstellt für die Seiten                                                        |
-|   .03.2023    | 2.0.1   |    Ich habe neu Begonnen                                                          |
-|   01.03.2023    | 2.0.1   |    Ich habe neu Begonnen                                                          |
-|    02.03.2023   | 2.0.2   |                                                              |
+|   23.02.2023    | 2.0.1   |    Ich habe neu Begonnen und habe ein neues Projekt mit einer Firebase Datenbank erstellt                                                     |
+|   28.02.2023    | 2.0.1   |    Ich habe das Login fertiggestellt und das Adminpanel begonnen, auch konnte ich den Darkmode implementieren                                                     |
+|   01.03.2023    | 2.0.1   |    Ich habe das UI erstellt und das Adminpanel mit Buttons erstellt                                                          |
+|    02.03.2023   | 2.0.2   |    Ich habe die letzten Dinge probiert zu retten wie die löschfunktion, jedoch konnte ich nicht viel umsetzen                                                           |
 
 # 0) Ihr Projekt
 
@@ -55,7 +56,6 @@ Das Interface besteht aus einem Login bevor man auf das Spiel zugreifen kann. Da
 | 10  |       Muss          |   Qualität   |  Als Spieler möchte ich zu jeder Zeit meine Lebenspunkte einsehen können, um den Fortschritt des Spiels zu verfolgen.                                  |
 | 11  |        Muss         |   Qualität   |  Als Spieler möchte ich erfahren, ob meine Antwort richtig oder falsch war, um meine Leistung einschätzen zu können.                                  |
 | 12  |        Muss         |   Qualität   |     Als Spieler möchte ich in der Highscore-Liste Rang, Namen des Spielers, Zeitpunkt des Spiels, Geldbetrag und Anzahl der Spielrunden einsehen können, um meine Leistung mit anderen zu vergleichen.                               |
-| 13  |        Muss         |   Qualität   |    Als Spieler möchte ich, dass die Highscore-Liste nach Rang, bestimmt durch die Höhe des Geldbetrags, aufsteigend sortiert wird, um die besten Ergebnisse schnell zu finden.                                |
 | A | Kann | Funktional | Als Spieler möchte ich die History meines Bankkonto sehen, um zu sehen wie viel Geld ich an einem vorherigen Zeitpunkt hatte |
 | B | Kann | Funktional | Als Benutzer der Webseite möchte ich einen Dark und Lightmode haben, um einen dünkleren Modus zu haben der besser ist am Abend. |
 | C | Kann | Funktional | Als Spieler möchte ich in einem Shop verschiedene Items kaufen können, um mein erspieltes Geld |
@@ -145,6 +145,6 @@ Insgesamt muss ich sagen, dass ich mit dem Projekt sehr unzufrieden bin. Wegen v
 
 # 10 Allgemeines
 
-- [x ] Ich habe die Rechtschreibung überprüft
-- [ x] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
-- [x ] Ich habe alle mit ✍️ markierten Teile ersetzt
+- [✅] Ich habe die Rechtschreibung überprüft
+- [✅] Ich habe überprüft, dass die Nummerierung von Testfällen und User Stories übereinstimmen
+- [✅ ] Ich habe alle mit ✍️ markierten Teile ersetzt
