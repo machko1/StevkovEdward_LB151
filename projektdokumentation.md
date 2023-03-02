@@ -133,7 +133,7 @@ Das Interface besteht aus einem Login bevor man auf das Spiel zugreifen kann. Da
 
 # 8 Testprotokoll
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Xa3zk7BeZf0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+https://www.youtube.com/watch?v=Xa3zk7BeZf0&ab_channel=machko
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
