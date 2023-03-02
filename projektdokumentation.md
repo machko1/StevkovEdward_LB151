@@ -159,8 +159,7 @@ https://www.youtube.com/watch?v=Xa3zk7BeZf0&ab_channel=machko
 Insgesamt muss ich sagen, dass ich mit dem Projekt sehr unzufrieden bin. Wegen vielen Schwierigkeiten und Meinungsänderungen habe ich ein sehr schwaches Endresultat und ich konnte nur die hälfte der Testfälle realisieren. Ich hatte mühe, da ich spät im Projekt einen grossen Fehler mit der SQL Datenbank hatte und somit, praktisch von Neu beginnen musste vor 1-2 Wochen. Das Spiel ist nicht funktionsfähig und es wurden nur einige Admin Befehle und ein Login umgesetzt, mit einem teilweise funktionsfähigen UI.
 
 # 9 `README.md`
-
-[README.md](https://github.com/machko1/StevkovEdward_LB151/files/10872271/README.md)
+[README.md](https://github.com/machko1/StevkovEdward_LB151/files/10873054/README.md)
 
 
 # 10 Allgemeines
